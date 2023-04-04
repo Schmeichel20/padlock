@@ -165,7 +165,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-# api_key = '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'
