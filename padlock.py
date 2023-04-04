@@ -127,7 +127,7 @@ def main():
     parser = argparse.ArgumentParser(description='AES encryption and decryption tool.')
     parser.add_argument('-l', '--lock', action='store_true', help='Encrypt the input')
     parser.add_argument('-u', '--unlock', action='store_true', help='Decrypt the input')
-    parser.add_argument('-s', '--string', help='Input string to be encrypted or decrypted')
+    parser.add_argument('-s', '--string', help='A string to be encrypted. Don\'t try to decrypt a text string.')
     parser.add_argument('-f', '--file', help='Input file to be encrypted or decrypted')
     parser.add_argument('-o', '--output', help='Output file for encrypted or decrypted data')
     parser.add_argument('-p', '--password', help='Password for encryption/decryption')
